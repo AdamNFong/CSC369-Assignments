@@ -1,0 +1,12 @@
+Adam Fong
+fongadam
+111
+
+Discussion:
+	There are two scenarios that can arise when using this monitor: finite amount of cars for infinite amount of cars. In the first
+	scenario if there is a finite amount of cars starvation is impossible. Consider the scenario that a car in the north wants to cross 
+	but is unable to due the cars in other lanes. Since there are finite cars the other lanes will run out eventually leaving the quadrant 
+	locks free for the north lane. Thus starvation cannot happen. As for the second scenario, and the more realistic one for busy cities,
+	starvation is indeed possible. Consider the same example but imagine an infinite amount cars arriving in the other lanes, since the quadrant 
+	locks dont have a preferrence of who retrieves them it is possible that the other lanes will be given priority and the north lane will left 
+	without any locks to proceed. Since there are an infinite amount of cars the north car will never be able to cross, thus starvation.  

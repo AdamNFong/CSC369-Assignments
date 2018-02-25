@@ -1,0 +1,6 @@
+Adam Fong
+fongadam
+274
+
+Comments: There is a small bug in the code that likes to occasionally append '!' at the end of a file name. For example, if im copying 'cp.txt' into the img file
+my parser will change the name to 'cp.txt!' (it will show cp.txt! in ext2_dump). This bug only seems to appear in ext2_rm and ext2_cp. I've made a work around but wasn't able to find the root of the problem.
